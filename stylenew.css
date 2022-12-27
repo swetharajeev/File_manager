@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+img{
+    /* margin-left: 450px; */
+    border:solid 2px black; 
+    border-radius: 500px;
+    width:110px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.navbar{
+    width: 100%;
+    background-color:black;
+    display: inline-block;
+    height: 100px;
+    /* margin: auto; */
+    
+}
+
+#firsthead{
+    text-align: center;
+    /* float: left; */
+    color: white;
+    padding-top: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    /* width: 100%;
+    height: 70px;
+    background-color:#75E6DA; */
+}
+#secondhead{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #026072;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+body{
+    /* background-color: #90ee907a */
+    background-color: #D4F1F4;
+}
+
+.login{
+    border: solid 2px;
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(215, 250, 243);
+    height: 500px;
+}
+#rem{
+    font-size: 15px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#link{
+    text-decoration: none;
+    padding-left: 15px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#cancel{
+    border: 1px soloid;
+    background-color: red;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+.ip{
+    border: 1px solid;
+    /* border-top-style: hidden; */
+    width: 350px;
+    margin: auto;
+    border-color: gray;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#user{
+    border-bottom: 1px solid; 
+    /* border-radius: 5px; */
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    /* padding-top:10px */
+    margin-top:20px;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    background-color: rgb(215, 250, 243);
+    
+}
+
+#pass{
+    /* border: 1px solid;
+    border-radius: 5px; */
+    border-bottom: 1px solid; 
+    /* border-radius: 5px; */
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+     margin-top:15px;
+     font-family: 'Gloria Hallelujah', cursive;
+     text-align: center;
+     background-color: rgb(215, 250, 243);
+}
+#log{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: aquamarine;
+     margin-top:15px;
+     cursor: pointer;
+     font-family: 'Gloria Hallelujah', cursive;
+     font-weight: 700;
+}
